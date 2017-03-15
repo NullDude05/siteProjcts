@@ -1,0 +1,21 @@
+h1 {
+    font-family: Verdana;
+    color: black;
+}
+
+h2 {
+  font-family: Verdana;
+}
+
+p {
+    font-size: 18;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+th {
+  font-family: Tahoma;
+}
+
+td{
+  font-family: Tahoma;
+}
