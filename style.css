@@ -7,6 +7,12 @@ h2 {
   font-family: Verdana;
 }
 
+h3 {
+  font-size: 20;
+  font-family: sans-serif;
+  text-align: center;
+}
+
 p {
     font-size: 18;
     font-family: Tahoma, Geneva, sans-serif;
@@ -16,6 +22,17 @@ th {
   font-family: Tahoma;
 }
 
-td{
+td {
   font-family: Tahoma;
+  border: 1px solid blue;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid blue;
+
+}
+
+hr {
+  color: blue;
 }
