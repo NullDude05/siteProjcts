@@ -40,3 +40,19 @@ hr {
 p1 {
   font-size: 15px
 }
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: orange;
+}
