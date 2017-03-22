@@ -56,3 +56,9 @@ a:hover {
 a:active {
   color: orange;
 }
+
+#JoshLogo {
+  background-image: url("Logo.png");
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
