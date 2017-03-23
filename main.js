@@ -1,42 +1,45 @@
-var answer1 = document.getElementById('img1').innerHTML;
-var answer2 = "Green Day";
-var answer3 = "Eagles";
-var answer4 = "Queen";
-var answer5 = "Journey";
-var answer6 = "Red Hot Chili Peppers";
-var test = document.getElementById('minigame');
+var answer1 = document.getElementById('answer1');
+var answer2 = document.getElementById('answer2');
+var answer3 = document.getElementById('answer3');
+var answer4 = document.getElementById('answer4');
+var answer5 = document.getElementById('answer5');
+var answer6 = document.getElementById('answer6');
 
 function getAnswer(answer1, answer2, answer3, answer4, answer5, answer6) {
   if (answer1 = "Aerosmith") {
-    console.log("You got it!");
+    alert("You got the first one right!");
   }
   else {
-    console.log("Incorrect");
+    alert("You got the first one wrong");
   }
   if (answer2 = "Green Day") {
-    console.log("Yes!");
+    alert("You got the second one right!");
   } else {
-    console.log("Nope, Sorry.");
+    alert("You got the second one wrong");
   }
   if (answer3 = "Eagles") {
-    console.log("You did it!");
+    alert("You got the third one right!");
   } else {
-    console.log("No");
+    alert("You got the third one wrong");
   }
   if (answer4 = "Queen") {
-    console.log("Correct!");
+    alert("You got the fourth one right!");
   } else {
-    console.log("Incorrect");
+    alert("You got the fourth one wrong");
   }
   if (answer5 = "Journey") {
-    console.log("Good Job!");
+    alert("You got the fifth one right!");
   } else {
-    console.log("Nope");
+    alert("You got the fifth one wrong");
   }
   if (answer6 = "Red Hot Chili Peppers") {
-    console.log("Great Job!");
+    alert("You got the sixth one right!");
   } else {
-    console.log("Not right.");
+    alert("You got the fifth one wrong");
   }
 }
 getAnswer();
+
+function myFunction() {
+  getElementById('myForm').submit();
+}

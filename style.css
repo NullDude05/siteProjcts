@@ -57,8 +57,8 @@ a:active {
   color: orange;
 }
 
-#JoshLogo {
+body {
   background-image: url("Logo.png");
   background-repeat: no-repeat;
-  opacity: 0.5;
+  background-position: center;
 }
