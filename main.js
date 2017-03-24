@@ -5,7 +5,11 @@ var answer4 = document.getElementById('answer4');
 var answer5 = document.getElementById('answer5');
 var answer6 = document.getElementById('answer6');
 
+
 function getAnswer(answer1, answer2, answer3, answer4, answer5, answer6) {
+  $('.button-click').on('click', getAnswer() {
+
+  });
   if (answer1 = "Aerosmith") {
     alert("You got the first one right!");
   }
@@ -38,8 +42,4 @@ function getAnswer(answer1, answer2, answer3, answer4, answer5, answer6) {
     alert("You got the fifth one wrong");
   }
 }
-getAnswer();
-
-function myFunction() {
-  getElementById('myForm').submit();
-}
+// getAnswer();
