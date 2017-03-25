@@ -1,5 +1,6 @@
 
-$('.button-click').on('click', function() {
+$(document).ready(function() {
+    $('.button-click').click(function() {
     var answer1 = document.getElementsByClassName("answer1");
     var answer2 = document.getElementsByClassName("answer2");
     var answer3 = document.getElementsByClassName("answer3");
@@ -7,6 +8,7 @@ $('.button-click').on('click', function() {
     var answer5 = document.getElementsByClassName('answer5');
     var answer6 = document.getElementsByClassName('answer6');
 
+        
     if (answer1 === "Aerosmith") {
       alert("You got the first one right!");
     }
@@ -39,3 +41,5 @@ $('.button-click').on('click', function() {
       alert("You got the sixth one wrong");
     }
   });
+
+});

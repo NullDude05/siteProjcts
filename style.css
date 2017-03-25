@@ -1,6 +1,7 @@
 h1 {
     font-family: Verdana;
     color: black;
+    text-align: center;
 }
 
 h2 {
@@ -14,22 +15,28 @@ h3 {
 }
 
 p {
-    font-size: 18;
-    font-family: Tahoma, Geneva, sans-serif;
+    color: firebrick;
+    font-size: 23px;
+    font-family: "Arial",  sans-serif;
+    text-align: center;
 }
 
 th {
     font-family: Tahoma;
+    border: transparent;
 }
 
 td {
     font-family: Tahoma;
     border: 1px solid blue;
+    text-align: center;
+    border: transparent;
 }
 
 table {
     border-collapse: collapse;
-    border: 1px solid blue;
+    border: transparent;
+    margin: auto;
 }
 
 hr {
@@ -57,7 +64,6 @@ a:active {
 }
 
 body {
-    background-image: url("Logo.png");
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: azure;
 }
+
