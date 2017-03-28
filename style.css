@@ -19,6 +19,8 @@ p {
     font-size: 1em;
     font-family: "Arial",  sans-serif;
     text-align: center;
+    
+    padding: 1em 30em;
 }
 
 th {
@@ -110,6 +112,11 @@ a:visited {
 
 #Game:hover {
     background-image: url(http://cdn.mos.cms.futurecdn.net/2852f2c52c2f809ead54ac979a697c61.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Project:hover {
     background-repeat: no-repeat;
     background-position: center;
 }
