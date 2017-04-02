@@ -17,8 +17,9 @@ h3 {
 p {
     color: firebrick;
     font-size: 1em;
-    font-family: "Arial",  sans-serif;
+    font-family: "Arial", sans-serif;
     text-align: center;
+    padding: 1em 30em;
 }
 
 th {
@@ -50,11 +51,13 @@ a:link {
 }
 */
 
+
 /*
 a:visited {
     color: green;
 }
 */
+
 .topnav {
     background-color: aliceblue;
     overflow: hidden;
@@ -62,7 +65,7 @@ a:visited {
 
 .topnav a:hover {
     color: beige;
-/*    background-color: floralwhite;*/
+    /*    background-color: floralwhite;*/
 }
 
 .topnav a:active {
@@ -90,7 +93,7 @@ a:visited {
     background-position: center;
 }
 
-#Sport:hover{
+#Sport:hover {
     background-image: url(http://cdn.bleacherreport.net/images/team_logos/64x64/college_basketball.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -113,6 +116,12 @@ a:visited {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+#Project:hover {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 body {
     background-color: azure;
 }

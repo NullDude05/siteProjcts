@@ -1,74 +1,87 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>My Projects</title>
     <link rel="stylesheet" href="style.css" type="style.css" />
-  </head>
-  <body>
+</head>
+
+<body>
+    <h3>Josh's First Sample Website</h3>
+
+    <hr/>
     <div class="topnav">
-       <a href="index.html" id="Home">Home</a>
+        <a href="index.html" id="Home">Home</a>
         <a href="CodingExperience.html" id="Code">Coding Experience</a>
         <a href="Hobbies.html" id="Hobby">Hobbies</a>
         <a href="sports.html" id="Sport">Sports</a>
+        <a href="MyProjects.html" id="Project">My Projects</a>
         <a href="MyFavoriteCars.html" id="Car">Favorite Cars</a>
         <a href="FavoriteGames.html" id="Game">Favorite Games</a>
     </div>
     <h1>
-      Let's Play a Game!
+        Let's Play a Game!
     </h1>
     <table>
-      <thead>
-      <th colspan="5">
-        Guess the Band
-      </th>
-    </thead>
-      <tr>
-        <td>
-          <img src="http://cdn-s3.allmusic.com/cms/3518/blog_aerosmith1.jpg" style="width:370px;height:250px;"/>
-        </td>
-        <td>
-          <img src="http://worldversus.com/img/greeday.jpg" style="width:370px;height:250px;"/>
-        </td>
-        <td>
-          <img src="http://a.espncdn.com/photo/2013/0813/eagles_group_g_mp_576.jpg" style="width:370px;height:250px;" />
-        </td>
-      </tr>
-      <tr>
-        <td style="text-align: center">
-          <input type="text" class="answer1">
-        </td>
-        <td style="text-align: center">
-          <input type="text" class="answer2">
-        </td>
-        <td style="text-align: center">
-          <input type="text" class="answer3">
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <img src="http://www.officialcharts.com/imagegen.ashx?image=/media/317949/queen.jpg&width=796&height=420" style="width:370px;height:250px;" />
-        </td>
-        <td>
-          <img src="https://s-media-cache-ak0.pinimg.com/736x/a3/d3/2f/a3d32f0f523ab8c573d7b34d30b7d632.jpg" style="width:370px;height:250px;" />
-        </td>
-        <td>
-          <img src="http://az616578.vo.msecnd.net/files/2016/06/18/636018797803960971-634170979_red-hot-chili-peppers-dark-necessities-single-new-mp3.png" style="width:370px;height:250px;" />
-        </td>
-      </tr>
-      <tr>
-        <td style="text-align: center">
-          <input type="text" class="answer4">
-        </td>
-        <td style="text-align: center">
-          <input type="text" class="answer5">
-        </td>
-        <td style="text-align: center">
-          <input type="text" class="answer6">
-        </td>
-      </tr>
+        <thead>
+            <th colspan="5">
+                Guess the Band
+            </th>
+        </thead>
+        <tr>
+            <td>
+                <img src="http://cdn-s3.allmusic.com/cms/3518/blog_aerosmith1.jpg" style="width:370px;height:250px;" />
+            </td>
+            <td>
+                <img src="http://worldversus.com/img/greeday.jpg" style="width:370px;height:250px;" />
+            </td>
+            <td>
+                <img src="http://a.espncdn.com/photo/2013/0813/eagles_group_g_mp_576.jpg" style="width:370px;height:250px;" />
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center">
+                <input type="text" id="response1" value="">
+                <p id="correction1" class="pclass" ></p>
+            </td>
+            <td style="text-align: center">
+                <input type="text" id="response2" value="">
+                <p id="correction2" class="pclass" ></p>
+            </td>
+            <td style="text-align: center">
+                <input type="text" id="response3" value="">
+                <p id="correction3" class="pclass" ></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="http://www.officialcharts.com/imagegen.ashx?image=/media/317949/queen.jpg&width=796&height=420" style="width:370px;height:250px;" />
+            </td>
+            <td>
+                <img src="https://s-media-cache-ak0.pinimg.com/736x/a3/d3/2f/a3d32f0f523ab8c573d7b34d30b7d632.jpg" style="width:370px;height:250px;" />
+            </td>
+            <td>
+                <img src="http://az616578.vo.msecnd.net/files/2016/06/18/636018797803960971-634170979_red-hot-chili-peppers-dark-necessities-single-new-mp3.png" style="width:370px;height:250px;" />
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center">
+                <input type="text" id="response4" value="">
+                <p id="correction4" class="pclass" ></p>
+            </td>
+            <td style="text-align: center">
+                <input type="text" id="response5" value="">
+                <p id="correction5" class="pclass" ></p>
+            </td>
+            <td style="text-align: center">
+                <input type="text" id="response6" value="">
+                <p id="correction6" class="pclass" ></p>
+            </td>
+        </tr>
     </table>
-    <button type="button" class="button-click">Submit</button>
-            <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
-        <script src="main.js"></script>
+    <button type="button" onclick="submitButton()">Submit</button>
+    <p id = "calculation"></p>
+    <script type="text/javascript" src="javascipt/main.js"></script>
 </body>
+
 </html>
