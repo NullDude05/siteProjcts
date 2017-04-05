@@ -19,7 +19,8 @@ p {
     font-size: 1em;
     font-family: "Arial", sans-serif;
     text-align: center;
-    padding: 1em 30em;
+    padding: 1em 10em;
+    line-height: 1.5;
 }
 
 th {
