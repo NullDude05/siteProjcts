@@ -39,66 +39,66 @@ function submitButton() {
     }
 
 
-function amountCorrect () {
-    function createPoints (){
-        if (answer1 === true) {
-            a = true;
-        }
-        else {
-            a = false;
-        }
-        if (answer2 === true) {
-            b = true;
-        }
-        else {
-            b = false;
-        }
-        if (answer3 === true) {
-            c = true;
-        }
-        else {
-            c = false;
-        }
-        if (answer4 === true) {
-            d = true;
-        }
-        else {
-            d = false;
-        }
-        if (answer5 === true) {
-            e = true;
-        }
-        else {
-            e = false;
-        }
-        if (answer6 === true) {
-            f = true;
-        }
-        else {
-            f = false;
-        }
-    }
-    var a = 1;
-    var b = 1;
-    var c = 1;
-    var d = 1;
-    var e = 1;
-    var f = 1;
-    var total = a + b + c + d + e + f;
-    if (total = 6) {
-        document.getElementById("calculation").innerHTML = "You got 100%!";
-    }
-    if (total = 5) {
-        document.getElementById("calculation").innerHTML = "You got 83%!";
-    }
-    if (total = 4) {
-        document.getElementById("calculation").innerHTML = "You got 66%";
-    }
-    if (total = 3) {
-        document.getElementById("calculation").innerHTML = "You got 50%";
-    }
-    else {
-        document.getElementById("calculation").innerHTML = "Better luck next time.";
-    }
-}
+//function amountCorrect () {
+//    function createPoints (){
+//        if (answer1 === true) {
+//            a = true;
+//        }
+//        else {
+//            a = false;
+//        }
+//        if (answer2 === true) {
+//            b = true;
+//        }
+//        else {
+//            b = false;
+//        }
+//        if (answer3 === true) {
+//            c = true;
+//        }
+//        else {
+//            c = false;
+//        }
+//        if (answer4 === true) {
+//            d = true;
+//        }
+//        else {
+//            d = false;
+//        }
+//        if (answer5 === true) {
+//            e = true;
+//        }
+//        else {
+//            e = false;
+//        }
+//        if (answer6 === true) {
+//            f = true;
+//        }
+//        else {
+//            f = false;
+//        }
+//    }
+//    var a = 1;
+//    var b = 1;
+//    var c = 1;
+//    var d = 1;
+//    var e = 1;
+//    var f = 1;
+//    var total = a + b + c + d + e + f;
+//    if (total = 6) {
+//        document.getElementById("calculation").innerHTML = "You got 100%!";
+//    }
+//    if (total = 5) {
+//        document.getElementById("calculation").innerHTML = "You got 83%!";
+//    }
+//    if (total = 4) {
+//        document.getElementById("calculation").innerHTML = "You got 66%";
+//    }
+//    if (total = 3) {
+//        document.getElementById("calculation").innerHTML = "You got 50%";
+//    }
+//    else {
+//        document.getElementById("calculation").innerHTML = "Better luck next time.";
+//    }
+//}
 }
