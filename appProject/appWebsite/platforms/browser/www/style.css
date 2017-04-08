@@ -37,6 +37,7 @@ td {
 
 table {
     border-collapse: collapse;
+/*    border-spacing: 1px 1px;*/
     border: transparent;
     margin: auto;
     padding: 1em 3em;
@@ -66,12 +67,12 @@ a:visited {
 }
 
 .topnav a:hover {
-    color: beige;
+    color: chartreuse;
     /*    background-color: floralwhite;*/
 }
 
 .topnav a:active {
-    color: black;
+    color: orange;
     background-color: floralwhite;
 }
 
@@ -120,10 +121,25 @@ a:visited {
 }
 
 #Project:hover {
+    background-image: url(http://buildingonhope.com/wp-content/uploads/2015/07/iconmonstr-tools-4-icon-256.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 body {
     background-color: azure;
+}
+
+.gamesLink {
+    color: coral;
+    padding: 1em 1em;
+    text-decoration: none;
+}
+
+.gamesLink:hover {
+    color: green;
+}
+
+.gamesLink:active {
+    color: black;
 }
