@@ -1,0 +1,33 @@
+body {
+    background-color: aliceblue;
+}
+
+p {
+/*    color: black;*/
+/*    background-color: #FEFA89;*/
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+/*    opacity: 0.65;*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url("bball.png");
+    min-height: 600px;
+    background-size: contain;
+}
+
+.bgimg-2 {
+    background-image: url("bball_josh2.png");
+    min-height: 600px;
+}
+
+.bgimg-3 {
+    background-image: url("mom_food.jpg");
+    min-height: 600px;
+}
